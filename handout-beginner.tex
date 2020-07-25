@@ -225,14 +225,14 @@ titles, etc. \medskip
 \subsection*{\rmfamily Organize}
 % -----------------------------------------------------------------------------
 
-You can plot several data on the the same figure but you can also
+You can plot several data on the the same figure, but you can also
 split a figure in several subplots (named {\em Axes}): \medskip
 
 % -----------------------------------------------------------------------------
 \begin{tabular}{@{}m{.821\linewidth}m{.169\linewidth}}
 \begin{lstlisting}[belowskip=-\baselineskip]
  X = np.linspace(0,10,100)
- Y1, Y1 = np.sin(X), np.cos(X)
+ Y1, Y2 = np.sin(X), np.cos(X)
  ax.plot(X, Y1, Y2)
 \end{lstlisting}
 & \raisebox{-0.75em}{\includegraphics[width=\linewidth]{plot-multi.pdf}}
